@@ -1,0 +1,157 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-brand{
+  color:#214eff;
+  font-size: 35px;
+}
+
+.search-button{
+ position: relative;
+ left: -40px;
+}
+
+.searchbox{
+  width: 350px;
+}
+
+.sellbutton{
+  background-color: #f6f1f1;
+  border:0;
+  color:#214eff;
+}
+
+/* slider */
+.slider{
+  background-color: #f2f2ff;
+}
+
+.slider img{
+  width: 400px;
+}
+
+.slider .slidertext1{
+  font-weight: 600; 
+  letter-spacing: 1.3px; 
+  font-size:20px;
+}
+
+.slider .slidertext2{
+  color:#808080; 
+  font-size: 17px;
+}
+/* slider */
+
+/* scrollmenu */
+
+.scrollmenu .card {
+  height: 80px;
+  width: 80px;
+}
+
+.scrollmenu .card img{
+  height: 40px;
+}
+/* scrollmenu */
+
+/* recommend */
+
+.recommend .recommend-first{
+  background-color: #F2F2FF;
+}
+
+.recommend .recommend-second{
+  color: #345CFD;
+}
+
+.recommend .recommend-second img{
+  width: 20px;
+}
+
+.recommend .recommend-third{
+  background-color: #EFEFEF;
+}
+
+.recommend .recommend-alert{
+  color: #345CFD;
+}
+
+.recommend .recommend-alert img{
+  width: 20px;
+}
+ 
+/* recommend */
+
+
+/* trending-game */
+
+.trending-game .trendinggametext1{
+  background-color: #214eff; 
+  width: auto; 
+  color: white; 
+  padding: 3px; 
+}
+
+.trending-game .trendinggametext2{
+  width: auto; 
+  color: #848484; 
+  padding: 3px; 
+  cursor: pointer;
+}
+
+.trending-game img{
+  object-fit: scale-down;
+  width: 100%;
+}
+/* trending-game */
+
+/* trending-giftcards */
+
+.trending-giftcards .giftcardstext1{
+  color: #848484; 
+  font-size: 18px;
+}
+
+.trending-giftcards img{
+  height: 180px; 
+  object-fit: contain;
+  padding: 40px 0px; 
+  background-color: #F1F1F1;
+}
+
+.trending-giftcards .giftcardname{
+  height: 35px;
+}
+
+
+
+/* trending-giftcards */
+
+
+/* trending-videogames */
+
+.trending-videogames .videogamestext1{
+  color: #848484; 
+  font-size: 18px;
+}
+
+.trending-videogames img{
+  height: 180px; 
+  object-fit: contain;
+  padding: 40px 0px; 
+  background-color: #F1F1F1;
+}
+
+.trending-videogames .videogametext1{
+  height: 35px;
+}
+
+/* trending-videogames */
+
+
+
+
+
+ 
