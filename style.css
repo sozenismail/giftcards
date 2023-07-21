@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar-brand{
@@ -19,9 +20,11 @@ body{
 
 .sellbutton{
   background-color: #f6f1f1;
-  border:0;
   color:#214eff;
+  position: relative;
+  left: 25px;
 }
+
 
 /* slider */
 .slider{
