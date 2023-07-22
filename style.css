@@ -385,3 +385,56 @@ color: #343436; background-color: white;
    
   /* sell */
   
+
+  
+/* categories hover #0d6efd */
+
+.card-category {
+  cursor: pointer;
+}
+
+.card-before {
+  background-color: #345bfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  rotate: 45deg;
+  border-radius: 14px;
+}
+
+.card-main {
+  background-color: white;
+  border: 1px solid gray;
+  rotate: -45deg;
+  border-radius: 14px;
+}
+
+.card-category:hover .card-before {
+  background-color: white;
+  transition: 0.2s;
+  color:white;
+}
+.card-category:hover .card-main {
+  background-color: #345bfb;
+  transition: 0.2s;
+  display: none;
+}
+
+.active-img2{
+  display: none;
+}
+
+.card-category:hover .active-img1 {
+  display: none;
+}
+
+.card-category:hover .active-img2 {
+  display: flex;
+}
+
+
+.section::-webkit-scrollbar-track {
+  background-color: red;
+}
+
+/* categories hover */
