@@ -67,6 +67,18 @@ body{
 .scrollmenu .card img{
   height: 40px;
 }
+
+.scrollmenu .main .mainback{
+  height:80px; 
+  width: 80px; 
+  background-color: #345CFD;  
+  transform: rotate(45deg);
+  position: relative; 
+  bottom: -80px;
+}
+
+ 
+ 
 /* scrollmenu */
 
 /* recommend */
