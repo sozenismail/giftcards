@@ -88,7 +88,8 @@ background-color: #F2F2FF;
 }
 
 .recommend .recommend-second{
-color: #345CFD;
+color: black;
+font-weight: bold;
 }
 
 .recommend .recommend-second img{
@@ -97,6 +98,8 @@ width: 20px;
 
 .recommend .recommend-third{
 background-color: #EFEFEF;
+color: black;
+font-weight: bold;
 }
 
 .recommend .recommend-alert{
