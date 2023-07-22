@@ -1,153 +1,171 @@
 
 body{
-    font-family: 'Roboto Condensed', sans-serif;
-    overflow-x: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar-brand{
-  color:#214eff;
-  font-size: 35px;
+color:#214eff;
+font-size: 35px;
 }
 
 .search-button{
- position: relative;
- left: -40px;
+position: relative;
+left: -40px;
 }
 
 .searchbox{
-  width: 350px;
+width: 350px;
 }
 
 .sellbutton{
-  background-color: #f6f1f1;
-  color:#214eff;
-  position: relative;
-  left: 25px;
+background-color: #f6f1f1;
+color:#214eff;
+position: relative;
+left: 25px;
 }
 
 .logo{
-  height: 60px;
+height: 60px;
 }
 
 @media screen and (max-width: 600px) {
-  .logo{
-    height: 30px;
-  }
+.logo{
+  height: 30px;
+}
 }
 
 
 /* slider */
 .slider{
-  background-color: #f2f2ff;
+background-color: #f2f2ff;
 }
 
 .slider img{
-  width: 400px;
+width: 400px;
 }
 
 .slider .slidertext1{
-  font-weight: 600; 
-  letter-spacing: 1.3px; 
-  font-size:20px;
+font-weight: 600; 
+letter-spacing: 1.3px; 
+font-size:20px;
 }
 
 .slider .slidertext2{
-  color:#808080; 
-  font-size: 17px;
+color:#808080; 
+font-size: 17px;
 }
 /* slider */
 
 /* scrollmenu */
 
 .scrollmenu .card {
-  height: 80px;
-  width: 80px;
+height: 80px;
+width: 80px;
 }
 
 .scrollmenu .card img{
-  height: 40px;
+height: 40px;
 }
 
 .scrollmenu .main .mainback{
-  height:80px; 
-  width: 80px; 
-  background-color: #345CFD;  
-  transform: rotate(45deg);
-  position: relative; 
-  bottom: -80px;
+height:80px; 
+width: 80px; 
+background-color: #345CFD;  
+transform: rotate(45deg);
+position: relative; 
+bottom: -80px;
 }
 
- 
- 
+
+
 /* scrollmenu */
 
 /* recommend */
 
 .recommend .recommend-first{
-  background-color: #F2F2FF;
+background-color: #F2F2FF;
 }
 
 .recommend .recommend-second{
-  color: #345CFD;
+color: #345CFD;
 }
 
 .recommend .recommend-second img{
-  width: 20px;
+width: 20px;
 }
 
 .recommend .recommend-third{
-  background-color: #EFEFEF;
+background-color: #EFEFEF;
 }
 
 .recommend .recommend-alert{
-  color: #345CFD;
+color: #345CFD;
 }
 
 .recommend .recommend-alert img{
-  width: 20px;
+width: 20px;
 }
- 
+
 /* recommend */
 
 
 /* trending-game */
 
 .trending-game .trendinggametext1{
-  background-color: #214eff; 
-  width: auto; 
-  color: white; 
-  padding: 3px; 
+background-color: #214eff; 
+width: auto; 
+color: white; 
+padding: 3px; 
 }
 
 .trending-game .trendinggametext2{
-  width: auto; 
-  color: #848484; 
-  padding: 3px; 
-  cursor: pointer;
+width: auto; 
+color: #848484; 
+padding: 3px; 
+cursor: pointer;
 }
 
 .trending-game img{
-  object-fit: scale-down;
-  width: 100%;
+object-fit: scale-down;
+width: 100%;
 }
+
+.trending-game .main-item img{
+object-fit: contain; width: 90%; 
+}
+
+.trending-game .main-item .description{
+background-color: #214eff; width: 175px; position: relative; top: -21px;
+}
+
+.brand{
+color:#848484; font-size: 20px;
+}
+
+
+
+
+
+
 /* trending-game */
 
 /* trending-giftcards */
 
 .trending-giftcards .giftcardstext1{
-  color: #848484; 
-  font-size: 18px;
+color: #848484; 
+font-size: 18px;
 }
 
 .trending-giftcards img{
-  height: 180px; 
-  object-fit: contain;
-  padding: 40px 0px; 
-  background-color: #F1F1F1;
+height: 180px; 
+object-fit: contain;
+padding: 40px 0px; 
+background-color: #F1F1F1;
 }
 
 .trending-giftcards .giftcardname{
-  height: 35px;
+height: 35px;
 }
 
 
@@ -158,25 +176,209 @@ body{
 /* trending-videogames */
 
 .trending-videogames .videogamestext1{
-  color: #848484; 
-  font-size: 18px;
+color: #848484; 
+font-size: 18px;
 }
 
 .trending-videogames img{
-  height: 180px; 
-  object-fit: contain;
-  padding: 40px 0px; 
-  background-color: #F1F1F1;
+height: 180px; 
+object-fit: contain;
+padding: 40px 0px; 
+background-color: #F1F1F1;
 }
 
 .trending-videogames .videogametext1{
-  height: 35px;
+height: 35px;
 }
 
 /* trending-videogames */
 
 
+/* games */
+.gamesleft {
+height: 350px;
+}
+
+.games .gamesdesc .title{
+font-weight: 600;
+}
+
+.games .gamesdesc .item{
+font-weight: 100; color: #a29f9f;
+}
+
+.games .gamesdesc .dropdown button{
+background-color: #F2F2FF;
+font-weight: 100; color: #a29f9f;
+}
+
+.games .gamesdesc .dropdown-menu .dropdown-item{
+font-weight: 100; color: #a29f9f;
+}
+
+.games .gamesdesc2{
+background-color: #F2F2FF;
+}
+
+.games .gamesdesc2 img{
+width: 100%; margin-left: 3px;
+}
+
+.games .gamesdesc2 .headers{
+position: relative; bottom: 40px;
+}
+
+.games .gamesdesc2 .headers p{
+font-size: 14px;
+}
+
+.games .gamesdesc2 .headers span{
+font-size: 12px;
+}
+
+.games .gamesdesc2 .footer{
+font-size: 15px;
+}
+
+.games-item .item-title{
+color: #848484;
+}
 
 
+
+.games-item .item-row .icon{
+width: 25px; height: 25px; 
+}
+
+.games-item .item-row .game-image{
+width: 100px; height: 100px;
+}
+
+.games-item .item-row .detail-title{
+font-size: 14px; 
+color: #FFA85B; 
+}
+
+.games-item .item-row .detail-desc{
+font-size: 13px; color:#848484;
+}
+
+
+.games-item .seller{
+color: #848484;
+}
+
+.games-item .seller-count{
+color: #16C60C; font-weight: 500;
+}
+
+.games-item .sold{
+color: #848484; 
+}
+
+.games-item .money{
+color: #848484;text-wrap: nowrap;
+}
+
+.games-item .icon{
+width: 25px; height: 25px; 
+}
+
+.games-item .detail-title{
+font-size: 14px; color: #FFA85B;
+}
+
+
+@media screen and (max-width: 992px) {
+.gamesleft{
+  height: 200px;
+}
+}
+
+/* games */
+
+/* servicessection */
+.servicessection {
+
+width: 100%; 
+background-repeat: round; 
+background-image: url('assets/background.png'); 
+  
+}
+
+.servicessection .services1 {
+
+
+position: relative;
+background-color: #345CFD;
+top: -40px;
+height: 55px; width: 55px; padding: 10px; object-fit: contain; 
+border-radius: 100%;
+  
+}
+
+.servicessection .services2 {
+
+
+background-color: #345CFD; 
+position: relative;
+top: -40px;
+height: 65px; width: 65px; padding: 10px; object-fit: contain; 
+border-radius: 100%;
+  
+}
+
+.servicessection .services3 {
+
+
+background-color: #345CFD; 
+position: relative;
+top: -40px;
+height: 55px; width: 55px; padding: 10px; object-fit: contain; 
+border-radius: 100%;
+  
+}
+
+
+/* servicessection */
+
+/* footer */
+
+.footer{
+background-color: #F1F1F1;
+}
+.footer .menu-item{
+color: #707070;
+}
+
+.footer .footer-bottom{
+color: #343436; background-color: white;
+}
 
  
+/* footer */
+
+/* sell */
+
+ .gamingcard-image {
+    width:200px;
+ }
+
+ .gamingcard-text{
+  font-size: 15px;
+  }  
+
+ @media screen and (max-width: 1140px) {
+  .gamingcard-image {
+      width:150px;
+    }
+
+  .gamingcard-text{
+    font-size: 12px;
+  }  
+
+  }
+  
+   
+  /* sell */
+  
