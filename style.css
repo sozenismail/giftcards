@@ -259,7 +259,7 @@ width: 100px; height: 100px;
 
 .games-item .item-row .detail-title{
 font-size: 14px; 
-color: #FFA85B; 
+color: #345CFD; 
 }
 
 .games-item .item-row .detail-desc{
@@ -272,7 +272,7 @@ color: #848484;
 }
 
 .games-item .seller-count{
-color: #16C60C; font-weight: 500;
+color: #16C60C; font-weight: 700;
 }
 
 .games-item .sold{
@@ -281,6 +281,7 @@ color: #848484;
 
 .games-item .money{
 color: #848484;text-wrap: nowrap;
+font-weight: 600;
 }
 
 .games-item .icon{
