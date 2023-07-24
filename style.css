@@ -89,7 +89,7 @@ background-color: #F2F2FF;
 
 .recommend .recommend-second{
 color: black;
-font-weight: bold;
+font-weight: 500;
 }
 
 .recommend .recommend-second img{
@@ -99,7 +99,7 @@ width: 20px;
 .recommend .recommend-third{
 background-color: #EFEFEF;
 color: black;
-font-weight: bold;
+font-weight: 500;
 }
 
 .recommend .recommend-alert{
@@ -281,7 +281,7 @@ color: #848484;
 
 .games-item .money{
 color: #848484;text-wrap: nowrap;
-font-weight: 600;
+font-weight: 500;
 }
 
 .games-item .icon{
