@@ -455,7 +455,7 @@ color: #343436; background-color: white;
 }
 
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 768px) {
   .card-img-overlay .text-1{
     position: absolute;
     font-size: 13px;
@@ -466,7 +466,7 @@ color: #343436; background-color: white;
   }
 
   .card-img-overlay .text-3 button{
-    padding: 3px; margin-bottom:5px;
+    padding: 3px; margin-bottom:5px; width: 100%;
   }
   
   }
