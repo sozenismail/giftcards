@@ -439,3 +439,35 @@ color: #343436; background-color: white;
 }
 
 /* categories hover */
+
+
+/* profile */
+.card-img-overlay .text-1{
+  position: absolute; top: 8px; right: 16px;
+}
+
+.card-img-overlay .text-2{
+  position: absolute; bottom: 8px; left: 16px;
+}
+
+.card-img-overlay .text-3{
+  position: absolute; bottom: 8px; right: 16px;
+}
+
+
+@media screen and (max-width: 692px) {
+  .card-img-overlay .text-1{
+    position: absolute;
+    font-size: 13px;
+  }
+
+  .card-img-overlay .text-2{
+    font-size: 13px;
+  }
+
+  .card-img-overlay .text-3 button{
+    padding: 3px; margin-bottom:5px;
+  }
+  
+  }
+/* profile */
