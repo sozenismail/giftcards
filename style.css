@@ -2,6 +2,8 @@
 body{
   font-family: 'Roboto Condensed', sans-serif;
   overflow-x: hidden;
+  margin:0px;
+  padding:0px;
 }
 
 .navbar-brand{
@@ -50,7 +52,7 @@ font-weight: 600;
 letter-spacing: 1.3px; 
 font-size:20px;
 }
-<!-- -->  
+ 
 
 
 
@@ -66,7 +68,15 @@ font-size:20px;
   .image{
     display: none;
   }
-   
+  .slider .slidertext1{
+    font-weight: 600; 
+    letter-spacing: 1.3px; 
+    font-size:15px;
+  }
+
+  .slider .slidertext2{
+    font-size:13px;
+  }
    
 }
 @media screen and (min-width: 500px){
@@ -76,7 +86,6 @@ font-size:20px;
 }
 
 
-<!--   -->
 .slider .slidertext2{
 color:#808080; 
 font-size: 17px;
