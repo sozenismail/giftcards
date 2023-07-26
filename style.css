@@ -481,6 +481,27 @@ color: #343436; background-color: white;
   position: absolute; bottom: 8px; right: 16px; font-size: 20px;
 }
 
+.iconcolor{
+  color: #ffcf24;
+}
+
+.buttonstyle{
+  background-color: #CCCCCC;
+  color: white;
+}
+
+.backgroundcolor{
+  background-color: #F2F2FF;
+}
+
+.buttoncolor{
+  background-color: #214eff;
+}
+
+.searcheight{
+  height: 15px;
+} 
+
 
 @media screen and (max-width: 768px) {
   .card-img-overlay .text-1{
@@ -498,3 +519,28 @@ color: #343436; background-color: white;
   
   }
 /* profile */
+
+/*selling*/
+.sellingbackground{
+  background-color: #F2F2FF;
+}
+
+.selling{ 
+  color: #676767;
+}
+
+.sellingtitle{
+  font-weight: 600; 
+  word-spacing: 1px;
+}
+
+.sellingweight{
+  font-weight: 600;
+}
+
+.button-color{
+  background-color: #f6f1f1;
+}
+
+
+/*selling*/
