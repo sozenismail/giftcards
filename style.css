@@ -51,6 +51,10 @@ letter-spacing: 1.3px;
 font-size:20px;
 }
 <!-- -->  
+
+
+
+
 @media screen and (max-width: 600px) {
   .slider {
     top: 20px;
@@ -59,23 +63,18 @@ font-size:20px;
     position: absolute;
     z-index: -1;
   }
-  .imagesmall {
-    height: 30px;
-    top: 20px;
-    margin-right: 150px;
-   }
-   .textsmall{
-    margin-right: 145px;
-   }
-   .text-decoration{
-    font-size: 6px;
-   }
-   .transform{
-    margin-top:120px;
-    transform: rotate(90deg);
-   }
+  .image{
+    display: none;
+  }
+   
    
 }
+@media screen and (min-width: 500px){
+  .image2{
+    display: none;
+  }
+}
+
 
 <!--   -->
 .slider .slidertext2{
@@ -471,14 +470,15 @@ color: #343436; background-color: white;
 /* profile */
 .card-img-overlay .text-1{
   position: absolute; top: 8px; right: 16px;
+  font-size: 20px;
 }
 
 .card-img-overlay .text-2{
-  position: absolute; bottom: 8px; left: 16px;
+  position: absolute; bottom: 8px; left: 16px; font-size: 20px;
 }
 
 .card-img-overlay .text-3{
-  position: absolute; bottom: 8px; right: 16px;
+  position: absolute; bottom: 8px; right: 16px; font-size: 20px;
 }
 
 
