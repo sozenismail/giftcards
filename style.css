@@ -41,6 +41,8 @@ height: 60px;
 /* slider */
 .slider{
 background-color: #f2f2ff;
+left: 0%;
+bottom: 50%;
 }
 
 .slider img{
@@ -53,13 +55,17 @@ letter-spacing: 1.3px;
 font-size:20px;
 }
  
+.slider .slidertext2{
+color:#808080; 
+font-size: 17px;
+}
 
 
 
 
 @media screen and (max-width: 600px) {
   .slider {
-    top: 20px;
+    bottom: 45%;
   }
   .slidermenu{
     position: absolute;
@@ -75,7 +81,7 @@ font-size:20px;
   }
 
   .slider .slidertext2{
-    font-size:13px;
+    font-size:11px;
   }
    
 }
@@ -86,10 +92,8 @@ font-size:20px;
 }
 
 
-.slider .slidertext2{
-color:#808080; 
-font-size: 17px;
-}
+
+
 /* slider */
 
 /* scrollmenu */
