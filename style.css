@@ -50,7 +50,34 @@ font-weight: 600;
 letter-spacing: 1.3px; 
 font-size:20px;
 }
+<!-- -->  
+@media screen and (max-width: 600px) {
+  .slider {
+    top: 20px;
+  }
+  .slidermenu{
+    position: absolute;
+    z-index: -1;
+  }
+  .imagesmall {
+    height: 30px;
+    top: 20px;
+    margin-right: 150px;
+   }
+   .textsmall{
+    margin-right: 145px;
+   }
+   .text-decoration{
+    font-size: 6px;
+   }
+   .transform{
+    margin-top:120px;
+    transform: rotate(90deg);
+   }
+   
+}
 
+<!--   -->
 .slider .slidertext2{
 color:#808080; 
 font-size: 17px;
