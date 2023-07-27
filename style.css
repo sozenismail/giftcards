@@ -31,6 +31,20 @@ left: 25px;
 height: 60px;
 }
 
+
+.swiper {
+  height: 100%;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal{bottom: 0; height: 40px; background-color: transparent !important;}
+.swiper-scrollbar-drag{background: white;}
+.swiper-scrollbar-drag:after{content: ""; width: 150px; height:5px; border-radius: 100%;  background: #345CFD; position: absolute; top: 0; left: 50%; margin: 0 0 0 -20px;}
+
+
+.swiper-scrollbar-drag {
+  background: white !important;
+}
+
 @media screen and (max-width: 600px) {
 .logo{
   height: 42px;
